@@ -7,3 +7,5 @@ reddit.com
 youtube.com
 
 slither.io
+
+surviv.io
