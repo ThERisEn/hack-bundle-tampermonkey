@@ -51,12 +51,4 @@ auto kill
  just read the README.md in the folder
  
  # SHELLSHOCK.IO HACK INCLUDES
- Auto Aim
-
- Speed Hack
  
- Private Eggs
- 
- Aimbot
-
- Fire Bot
