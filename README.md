@@ -46,9 +46,13 @@ zoom hack
 auto respawn
 
 auto kill
- # SURVIV.IO HACK INCLUDES
+ # SURVIV.IO HACK EXTENSION INCLUDES
  
  just read the README.md in the folder
  
- # SHELLSHOCK.IO HACK INCLUDES
+ # SURVIV.IO AIMBOT INCLUDES
+ 
+ aimbot 
+
+# SHELLSHOCK.IO HACK INCLUDES
  
