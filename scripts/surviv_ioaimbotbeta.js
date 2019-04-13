@@ -5,6 +5,7 @@
 // @grant    	unsafeWindow
 // @author       https://github.com/rpasta42
 // @match       https://surviv.itch.io/survivio
+// @match       *://surviv.io/*
 // @require      http://code.jquery.com/jquery-3.3.1.js
 // ==/UserScript==
 
