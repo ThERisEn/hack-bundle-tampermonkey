@@ -1,4 +1,4 @@
-/ ==UserScript==
+// ==UserScript==
 // @name         ShellShock.Io Mods
 // @version      0.1
 // @description  Shellshock Aimbot
