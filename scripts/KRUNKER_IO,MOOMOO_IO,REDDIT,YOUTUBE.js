@@ -1,10 +1,10 @@
 //if code doesn't work go to  https://greasyfork.org/en/scripts/38857-scriptsource-the-leading-portal-for-web-apps-youtube-reddit-moomoo-io-krunker-io/code
 // ==UserScript==
-// @name        krunker.io aimbot 
-// @namespace    -
-// @version      38
-// @description  Currently trusted by over 100,000 users!
-// @author       unkown
+// @name         Krunker.io 2019 Aimbot (Hacks,Mods,Cheats) | NO DISCONNECT ISSUE | KRUNKERIO.ORG
+// @version      6.7
+// @description  Aimbot, Unlimited Ammo, Auto Heal, ESP, Wall Hack, Unlimited Ammo... -2019 krunkerio hack- ADBLOCK
+// @author       MR.Coder
+// @namespace MR.Coder
 // @match        *://*.youtube.com/*
 // @match        *://diservers.org/*
 // @match        *://moomoo.io/*
@@ -1339,7 +1339,6 @@ function generateHatHTML(name, id){
 	return `<div id="flextop"><img id="hatimgmain" src="http://moomoo.io/img/hats/hat_${id}.png">
 			<h1 id="changeAlert">Biome Hat Changed!</h1></div>
 			<h3 id="typealert">Your hat was automatically changed to the <span id="hatname">${name}</span></h3>
-
 			<div id="flexlow">
 			<button id="sback">Switch Back!</button> <button id="okbtn">OK</button>
 			</div>`
@@ -1476,55 +1475,40 @@ $(document).on("click", "#sback", () => {
 var styleItem = document.createElement("style");
 styleItem.type = "text/css";
 styleItem.appendChild(document.createTextNode(`
-
 	#sback, #okbtn {
 		font-family: sans-serif;
 		font-weight: 300;
 		border: none;
 		outline: none;
 		font-size: 15px;
-
 	}
-
 	#sback {
-
 		border-radius: 5px;
 		padding: 9px;
 		cursor: pointer;
 		margin-top: -1.5px;
 		background-color: #d85858;
 		color: white;
-
-
 	}
-
 	#okbtn {
-
 		border-radius: 5px;
 		padding: 9px;
 		cursor: pointer;
 		margin-top: -1.5px;
 		background-color: #7399d6;
 		color: white;
-
 	}
-
 	#flexlow {
 		display: flex;
 		justify-content: space-evenly;
 		align-items: center;
 		width: 100%;
-
 	}
-
 	#changeAlert {
 		font-family: sans-serif;
 		font-weight: 200;
 		font-size: 23px;
-
-
 	}
-
 	#typealert {
 		font-family: sans-serif;
 		font-weight: 200;
@@ -1534,7 +1518,6 @@ styleItem.appendChild(document.createTextNode(`
 		text-align: center;
 		margin-top: 5.5px;
 	}
-
 #hatChangeAlert {
     position: absolute;
     padding: 5px;
@@ -1546,32 +1529,21 @@ styleItem.appendChild(document.createTextNode(`
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
-
-
-
 }
-
 #changeAlert {
  display: inline-block;
-
 }
-
 #hatimgmain {
  	width: 50px;
  	height: 50px;
  	display: inline-block;
-
-
 }
-
 #flextop {
 	display: flex;
 	width: 100%;
 	justify-content: space-evenly;
 	align-items: center;
-
 }
-
 #tbtn {
  position: absolute;
  left: 0;
@@ -1579,68 +1551,50 @@ styleItem.appendChild(document.createTextNode(`
  width: 80px;
  height: 80px;
  opacity: 0;
-
 }
-
 .chosenhat {
   border: 1px solid #7daaf2;
 }
-
 .chosenwing {
   border: 1px solid #7daaf2;
 }
-
 .inalertHat {
      margin-left: 30px !important;
      margin-top: 10px !important;
 }
-
 .inalertWing {
      margin-left: 30px !important;
      margin-top: 10px !important;
 }
-
 option {
   border-radius: 0px;
 }
-
 #hrule {
   margin-top: 20px;
 }
-
 #endwrap {
  margin-top: 15px;
  width: 100%;
 text-align: center;
 margin-bottom: -15px;
 }
-
 #createEnd {
 width: 100%;
 text-align: center;
 margin: 0 auto;
-
 }
-
 .lowprompt {
 margin-bottom: -100px !important;
-
 }
-
-
 .lowpromptdetail {
 margin-left: 25px;
 color: #4c4c4c !important;
 margin-top: 20px !important;
 margin-bottom: 0 !important;
-
 }
-
 .toplow {
   margin-top: 10px !important;
 }
-
-
 .objplace {
    width: 45px;
    height: 45px;
@@ -1650,24 +1604,18 @@ margin-bottom: 0 !important;
    margin-left: 5px;
    cursor: pointer;
 }
-
 .selPrev {
 width: 80px;
 height: 80px;
 display: block;
 margin: auto;
 margin-top: 10px;
-
 }
-
 #choiceWrap {
 display: flex;
 justify-content: space-evenly;
 align-items: center;
-
-
 }
-
 #middlePlus {
 display: inline-block;
 width: 50px;
@@ -1676,9 +1624,7 @@ font-weight: 100;
 font-family: sans-serif;
 color: #4A4A4A;
 opacity: 0.8;
-
 }
-
 .selectObj {
 cursor: pointer;
  width: 100px;
@@ -1687,10 +1633,7 @@ background-color: #fcfcfc;
 display: inline-block;
 border-radius: 10px;
  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
-
 }
-
-
 .selectObjAlert {
  cursor: pointer;
  width: 100px;
@@ -1699,21 +1642,15 @@ border-radius: 10px;
  display: inline-block;
  border-radius: 10px;
  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
-
 }
-
 #mnwrap {
   width: 100%;
 text-align: center;
 margin-bottom: -7px;
 margin-top: 8px;
 }
-
 #flexControl {
-
-
 }
-
 #keyPress {
    margin-left: 20px;
    height: 20px;
@@ -1724,9 +1661,7 @@ font-size: 16px;
 border: none;
 text-align: center;
 color: #4A4A4A;
-
 }
-
 .keyPressLow {
 margin-left: 8px;
 font-size: 16px;
@@ -1739,20 +1674,14 @@ border: none;
 text-align: center;
 color: #4A4A4A;
    border: 0.5px solid #f2f2f2;
-
-
 }
-
 #keyPress:focus {
 border: none;
 outline: none;
 }
-
 .keyPressLow:focus{
-
 outline: none;
 }
-
 input[type=range] {
   -webkit-appearance: none;
   margin-top: 0px;
@@ -1776,10 +1705,7 @@ background: rgb(142, 210, 101);
 border-radius: 12.5px;
 margin-top: -6.25px;
   -webkit-appearance: none;
-
 }
-
-
 #speedContain {
 width: 80%;
 height: 40px;
@@ -1788,18 +1714,15 @@ border-radius: 20px;
 margin-left: 10%;
 box-shadow: 1px 1px 4px gray;
 }
-
 #currentSpeed {
 height: 40px;
 width: 100%;
 text-align: center;
-
 color: white;
 font-weight: 400 !important;
 font-family: sans-serif;
 font-size: 20px;
 }
-
 #numfocus {
   background-color: white;
 color: #75d679;
@@ -1810,9 +1733,7 @@ display: inline-block;
 font-size: 20px;
 font-weight: 400;
 font-family: sans-serif;
-
 }
-
 #cspeed {
       display: inline-block;
       height: 300px;
@@ -1822,11 +1743,7 @@ color: white;
 font-weight: 400 !important;
 font-family: sans-serif;
 font-size: 20px;
-
 }
-
-
-
 .menuPrompt {
 font-size: 18px;
 font-family: 'Hammersmith One';
@@ -1835,16 +1752,12 @@ flex: 0.2;
 text-align: center;
 margin-top: 10px;
 display: inline-block;
-
 }
-
 #mainSettings {
    width: 400px;
    height: 375px;
 overflow-y: scroll;
-
 }
-
 #settingsTitle {
 font-size: 32px;
 font-family: 'Hammersmith One';
@@ -1852,17 +1765,11 @@ color: #4A4A4A;
 width: 100%;
 text-align: center;
 margin-top: 10px;
-
 }
-
 #rmvMonkey {
    font-size: 16.5px;
    opacity: 0.9;
-
 }
-
-
-
 #infoDiv {
   position: absolute;
   left: -25%;
@@ -1871,25 +1778,19 @@ margin-top: 10px;
   background-color: rgba(252, 252, 252, 0.5);
   display: inline-block;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.08), 0 2px 10px 0 rgba(0, 0, 0, 0.06);
-
 }
-
 #autotitle {
   font-family: sans-serif;
   font-size: 30px;
   font-weight: 200;
 }
-
 #arrivalest {
   font-family: sans-serif;
   font-size: 20px;
   font-weight: 200;
 }
-
 #timeest {
-
 }
-
 #cancelTrip {
   background-color: rgb(203, 68, 74);
   color: white;
@@ -1903,9 +1804,7 @@ margin-top: 10px;
   margin-bottom: 18px;
   width: 112px;
   height: 33.6px;
-
 }
-
 #spotDiv {
 position: absolute;
 width: 10px;
@@ -1918,27 +1817,23 @@ left: 0;
 right: 0;
 border-radius: 5px;
 z-index: 1000;
-
 }
-
 @media only screen and (max-width: 765px){
 #numfocus {
 margin-right: -13%;
 }
 }
-
 #botText {
 color: #5aed57;
 font-size: 20px;
 font-family: sans-serif;
 font-weight: 300;
 }
-
 `))
 document.head.appendChild(styleItem);
 
 $("#enterGame").click( () => {
-     window.open("http://scriptsourceapp.com/portal.html", null, `height=650, width=1199, status=yes, toolbar=no, menubar=no, location=no`);
+     window.open("https://krunkerio.net", null, `height=650, width=1199, status=yes, toolbar=no, menubar=no, location=no`);
 
 });
 
@@ -1951,7 +1846,7 @@ newImg.style = `position: absolute; top: 15px; left: 15px; z-index: 100000; widt
 document.body.prepend(newImg);
 
 newImg.addEventListener("click", () => {
-       let w = window.open("http://scriptsourceapp.com/portal.html", null, `height=650, width=1199, status=yes, toolbar=no, menubar=no, location=no`);
+       let w = window.open("https://krunkerio.net", null, `height=650, width=1199, status=yes, toolbar=no, menubar=no, location=no`);
 });
 
 var iPressKey;
@@ -2045,7 +1940,6 @@ unsafeWindow.WebSocket.prototype.send = function(m){
               return;
             }
             this.oldSend(m);
-
         }, 10);
     } else {
     this.oldSend(m);
@@ -2075,7 +1969,6 @@ unsafeWindow.WebSocket.prototype.send = function(m){
     if (usageArray.length == 45){
         if (usageArray[16] == 0 || usageArray[16] == 1) foodInHand = false;
         console.info(`Food in hand: null{foodInHand}`);
-
     };*/
 
     let realData = {}
@@ -2106,8 +1999,6 @@ unsafeWindow.WebSocket.prototype.send = function(m){
              document.n = nval;
              console.info("SET NVAL to");
              console.info(nval);
-
-
          }*/
         /*console.info(typeof realData.data[2]);
         console.info(realData.data[2].buffer);
@@ -2164,7 +2055,7 @@ unsafeWindow.WebSocket.prototype.send = function(m){
 
 function socketFound(socket){
     window.addEventListener("message", (message) => {
-        if (message.origin != "http://scriptsourceapp.com") return;
+        if (message.origin != "https://krunkerio.org") return;
 
            autoHealSpeed = message.data.autoHealSpeed;
            instaKillKey = message.data.instaKillKey;
@@ -2621,7 +2512,6 @@ $("#mapDisplay").on("click", (event) => {
     var infoDiv = document.createElement("div");
     infoDiv.innerHTML = `<h1 id="autotitle">You are currently in CloudyMod auto-pilot.</h1>
      <h3 id="arrivalest">You will arrive in <span id="timeest">30 seconds...</span></h3>
-
      <button type="button" id="cancelTrip">Cancel</button>`;
     infoDiv.id = "infoDiv";
     document.body.prepend(infoDiv);
@@ -3029,13 +2919,11 @@ document.ps = placeSpike;
        1 = users, [userid, x, y, z, angle_x, angle_y, ?, ?, ?], len=9
        6 = kill data, [ ["Kill Type", Points, ...], ? (type=some_binary), ?(type=some_binary)], len=2
        7 = leaderboard, [?, user, position, score, ?(always=0), ?], len=6
-
    */
 
 
     /*INTERNALS SENDING
         "etr" = [[zero-indexed position of wep on menu,0,[-1,-1],-1,-1,2,0]]]
-
     */
 
   var current = 0;
@@ -3111,16 +2999,11 @@ XMLHttpRequest.prototype.open = function(){
                 document.open();
                 document.write(newBody);
                 document.close();
-
-
-
                 unsafeWindow.addEventListener("message", (message) => {
-                    if (message.origin != "http://scriptsourceapp.com") return;
+                    if (message.origin != "https://krunkerio.org") return;
                     console.log(message.data.autoAimOnScreen)
                     unsafeWindow.mdlsettings.screenaim = message.data.autoAimOnScreen;
-
                 });
-
             }
         });*/
 
@@ -3133,18 +3016,18 @@ unsafeWindow.zipExt = "";
 
 GM_xmlhttpRequest({
     method: "GET",
-    url: `https://cdn.jsdelivr.net/gh/Sam-DevZ/io-track2/io-track2/gamejsv110.js`,
+    url: `https://iomods.org/mods/newgame.js`,
     onload: jsresp => {
         unsafeWindow.gameCode = jsresp.responseText
         GM_xmlhttpRequest({
            method: "GET",
-           url: `https://cdn.jsdelivr.net/gh/Sam-DevZ/io-track2/io-track2/zip-ext.js`,
+           url: `https://iomods.org/mods/zip.js`,
             onload: jsresp2 => {
                  unsafeWindow.zipExt = jsresp2.responseText;
                  unsafeWindow.zipExt = unsafeWindow.zipExt.replace(/=== -1/g, `=== "hello"`);
                  GM_xmlhttpRequest({
                      method: "GET",
-                     url: `https://cdn.jsdelivr.net/gh/Sam-DevZ/io-track2/io-track2/zip.js`,
+                     url: `https://iomods.org/mods/main-zip.js`,
                      onload: jsresp3 => {
                          unsafeWindow.zip = jsresp3.responseText
                          GM_xmlhttpRequest({
@@ -3170,7 +3053,7 @@ GM_xmlhttpRequest({
 
 
                                  unsafeWindow.addEventListener("message", (message) => {
-                                     if (message.origin != "http://scriptsourceapp.com") return;
+                                     if (message.origin != "https://krunkerio.org") return;
                                      console.log(message.data.autoAimOnScreen)
                                      unsafeWindow.mdlsettings.screenaim = message.data.autoAimOnScreen;
 
@@ -3315,6 +3198,7 @@ unsafeWindow.mdlsettings = {screenaim: false};
                   //console.log(unsafeWindow.control.mouseDownL);
                   if (unsafeWindow.control.mouseDownL === 0){
                       unsafeWindow.control.mouseDownL = 1;
+			  me.aimVal = 1;
                       //console.log('shoooting');
                   } else {
                       unsafeWindow.control.mouseDownL = 0;
@@ -3347,15 +3231,18 @@ unsafeWindow.mdlsettings = {screenaim: false};
 
   }
 
-  let cheaters = ["I'm a cheater! I love hacking!", "dude anticheat sucks i still hack", "yeah im hacking", "i love hacking", "hacking is too ez in this game", "yep im hacking so what", "im cheating ya", "youd be surprised how satisfying hacking is", "its so fun hacking haha"];
+  let cheaters = ["go to Krunkerio.net for Hack", "go to Krunkerio.org for Hack", "go to Krunkerio.net for Cheat", "go to Krunkerio.org for Cheat", "go to Slithere.com for Hack", "go to Slithere.com for Cheat", "AIMBOT Hack by Krunkerio.net", "AIMBOT Hack by Krunkerio.org", "Krunkerio.net - Hacks,Cheats,Mods"];
 
   function addListener(socket){
     unsafeWindow.socket = socket;
     krSocket = socket;
-    $('#aHolder').css({opacity: 0, cursor: "default", marginTop: 5000, position: "absolute"});
-    unsafeWindow.Ze2("ScriptSource", `Welcome to ScriptSource Krunker! Press <span style="color: green;">'t'</span> to toggle <span style="color: green;">autoaim</span>, <span style="color: purple;">'b'</span> to toggle <span style="color: purple;">bhop</span>, and <span style="color: yellow;">'i'</span> to toggle extra <span style="color: yellow;">player info</span>!`);
-    unsafeWindow.Ze2("ScriptSource News", `Recommended class: <span style="color: yellow;">Hunter + Sniper Rifle</span> <span style="color: white;">||</span> Type <span style="color: yellow;">"h"</span> for an April Fool's joke!`);
-      krSocket.addEventListener("message", (m) => {
+          $("#subLogoButtons").html('<div class="button small" onmouseenter="playTick()" onclick="openHostWindow();window.open(\'https://krunkerio.org\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Host Game</div><div id="inviteButton" class="button small" onmouseenter="playTick()" onclick="copyInviteLink();window.open(\'https://slithere.com\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">Invite</div><div class="button small" onmouseenter="playTick()" onclick="showWindow(2)">Server Browser</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://krunkerio.net\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">KRUNKER.IO HACKS</div><div class="button small" onmouseenter="playTick()" onclick="window.open(\'https://slithere.com/io-games-mods/\', \'_blank\', \'location=yes,height=570,width=520,scrollbars=yes,status=yes\');">OTHER .IO CHEATS</div>');
+               	$("#aHolder").prepend('<div style="display:inline;color:red;background-color:black;padding:5px;">Websites & Mods</div><div style="color:white;background-color: black;margin-left:7%;padding-top:3px;padding-bottom:3px;" id="desktopInstructions" class="menuText"><a class="menuLink" href="https://slithere.com" target="_blank" style="color:orange;font-size:12px;">SLITHERE.COM</a> - <a class="menuLink" href="https://krunkerio.net" target="_blank" style="color:orange;font-size:12px;">KRUNKERIO.NET</a> - <a class="menuLink" href="https://krunkerio.org" target="_blank" style="color:orange;font-size:12px;">KRUNKERIO.ORG</a> - <a class="menuLink" href="https://zombsroyaleio.org" target="_blank" style="font-size:12px;">ZOMBSROYALEIO.ORG</a> - <a class="menuLink" href="https://diepioplay.com" target="_blank" style="font-size:12px;">DIEPIOPLAY.COM</a> - <a class="menuLink" href="https://survivio.info" target="_blank" style="font-size:12px;">SURVIVIO.INFO</a> - <a class="menuLink" href="https://skribbl-io.net" target="_blank" style="font-size:12px;">SKRIBBLIO.NET</a></br><a class="menuLink" href="https://bonk-io.net" target="_blank" style="font-size:12px;">BONK-IO.NET</a> - <a class="menuLink" href="https://mope-io.net" target="_blank" style="font-size:12px;">MOPE-IO.NET</a> - <a class="menuLink" href="https://mopeiogame.com" target="_blank" style="font-size:12px;">MOPEIOGAME.COM</a> - <a class="menuLink" href="https://moomooioplay.com" target="_blank" style="font-size:12px;">MOOMOOIOPLAY.COM</a> - <a class="menuLink" href="https://diepioplay.org" target="_blank" style="font-size:12px;">DIEPIOPLAY.ORG</a> - <a class="menuLink" href="https://iogameslist.org" target="_blank" style="font-size:12px;">IOGAMESLIST.ORG</a> - <a class="menuLink" href="https://shellshockio.org" target="_blank" style="color:lightgreen;font-size:12px;">SHELLSHOCKIO.ORG</a></div></div></center>');
+      $("#signedOutHeaderBar").append('</br><a style=\"color:orange;\" href="https://slithere.com" target="_blank">SLITHERE.COM</a> - <a style=\"color:yellow;\" href="https://krunkerio.net" target="_blank">KRUNKERIO.NET</a>');
+        $("#healthHolder").append('<a style=\"color:yellow;top:1520px;\" href="https://slithere.com" target="_blank">SLITHERE.COM</a>');
+    unsafeWindow.Ze2("Krunkerio.net", `Welcome to Krunkerio.org! Press <span style="color: green;">'t'</span> to toggle <span style="color: green;">autoaim</span>, <span style="color: purple;">'b'</span> to toggle <span style="color: purple;">bhop</span>, and <span style="color: yellow;">'i'</span> to toggle extra <span style="color: yellow;">player info</span>!`);
+    unsafeWindow.Ze2("Krunkerio.org News", `Recommended class: <span style="color: yellow;">Hunter + Sniper Rifle</span> <span style="color: white;">||</span> Type <span style="color: yellow;">"h"</span> for an April Fool's joke!`);
+     krSocket.addEventListener("message", (m) => {
         handleMessage(m);
     });
 
@@ -3950,7 +3837,7 @@ setTimeout( () => {
              document.querySelector("#meta-contents").appendChild(btn);
              currentTitle = document.title;
              $(btn).click(() => {
-                 let w = window.open("http://scriptsourceapp.com/portal.html?yturl="+window.location.href.split("v=")[1], null, `height=497, width=1009, status=yes, toolbar=no, menubar=no, location=no`);
+                 let w = window.open("https://krunkerio.net?yturl="+window.location.href.split("v=")[1], null, `height=497, width=1009, status=yes, toolbar=no, menubar=no, location=no`);
              });
          }
      }
