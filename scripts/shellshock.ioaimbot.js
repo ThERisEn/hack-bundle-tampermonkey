@@ -1,3 +1,4 @@
+// this needs a key 
 // ==UserScript==
 // @name         ShellShock.Io Mods
 // @version      0.1
