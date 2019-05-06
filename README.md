@@ -25,7 +25,7 @@ custom aim settings
 
 https://www.youtube.com/watch?v=HJMuZW9CU70
 
-x# MOOMOO.IO HACK INCLUDES
+# MOOMOO.IO HACK INCLUDES
 
 autoheal
 
