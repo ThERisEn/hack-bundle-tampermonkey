@@ -1,6 +1,6 @@
 warning: this is just other people scripts i'm just putting to togther 
 
-#SUBSCRIBE NOW
+# SUBSCRIBE NOW
 
 https://bit.ly/2J4yOPw
 
@@ -70,3 +70,4 @@ auto kill
 
 # S0URCE.IO HACK INCLUDES
  N/A just use
+have to copy and paste in console
