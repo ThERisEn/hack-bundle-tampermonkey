@@ -23,7 +23,9 @@ speed hack
 
 custom aim settings
 
-# MOOMOO.IO HACK INCLUDES
+https://www.youtube.com/watch?v=HJMuZW9CU70
+
+x# MOOMOO.IO HACK INCLUDES
 
 autoheal
 
@@ -49,6 +51,14 @@ auto kill
  # SURVIV.IO HACK EXTENSION INCLUDES
  
  just read the README.md in the folder
+ laggy and glitchs
+ 
+ https://www.youtube.com/watch?v=V7367OMB_Q0
+ 
+ # SURVIV.IO HACK EXTENSION2 INCLUDES
+ fast and no ban no lag and no glitchs
+ 
+ https://www.youtube.com/watch?v=LfzNbSSAKrA&t=25s
  
  # SURVIV.IO AIMBOT INCLUDES
  
