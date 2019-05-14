@@ -4,7 +4,7 @@ warning: this is just other people scripts i'm just putting to togther
 
 https://bit.ly/2J4yOPw
 
-# this is repo of tampermonkey scripts for hacking games and for hacking
+# this is repo of tampermonkey scripts for hacking games and for real hacking
 check out supported websites file for a list
 
 check out the scripts folder for scripts
@@ -15,6 +15,12 @@ download tamper monkey at https://chrome.google.com/webstore/detail/tampermonkey
 click add new script copy and paste a script from the scripts folder do command-s
 
  go to website you want to hack reload and enjoy
+ 
+ # HOW TO INSTALL EXTENSIONS
+ 
+ just download it and go to chrome://extensions
+ 
+ press dev mode on and then click load unpacked select the extension folder
 # KRUNKER.IO HACK INCLUDES
 
 aimbot
