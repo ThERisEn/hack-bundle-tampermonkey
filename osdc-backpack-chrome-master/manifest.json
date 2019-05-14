@@ -1,0 +1,30 @@
+{	"name"					: "OSDC Backpack"
+, "version"				: "0.1"
+,	"permissions"			:
+		[ "tabs"
+		, "contentSettings"
+		, "contextMenus"
+		, "debugger"
+		]
+,	"minimum_chrome_version": "16.0"
+,	"manifest_version"		: 2
+,	"homepage_url"			: "https://github.com/osdc/osdc-backpack-chrome"
+,	"description"			: "OSDC backpack"
+
+,	"icons"					:
+		{
+		"16"			: "img/icon16.png",
+		"48"			: "img/icon48.png",
+		"128"			: "img/icon128.png"
+		}
+,	"browser_action"		:
+		{ "default_icon"	: "img/icon128.png"
+		}
+,	"incognito"				: "spanning"
+,	"background"			: 
+		{ "page": "background.html"
+		}
+,	"options_page"			: "options.html"
+,   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}
+
