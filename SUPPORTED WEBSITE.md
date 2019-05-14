@@ -10,4 +10,3 @@ slither.io
 
 surviv.io
 
-s0urce.io
