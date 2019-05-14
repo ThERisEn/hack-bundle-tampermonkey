@@ -67,7 +67,3 @@ auto kill
  # SURVIV.IO AIMBOT INCLUDES
  
  aimbot 
-
-# S0URCE.IO HACK INCLUDES
- N/A just use
-have to copy and paste in console
