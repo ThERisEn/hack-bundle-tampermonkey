@@ -4,7 +4,7 @@ warning: this is just other people scripts i'm just putting to togther
 
 https://bit.ly/2J4yOPw
 
-# this is repo of tampermonkey scripts for hacking games
+# this is repo of tampermonkey scripts for hacking games and for hacking
 check out supported websites file for a list
 
 check out the scripts folder for scripts
