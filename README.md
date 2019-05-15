@@ -73,3 +73,7 @@ auto kill
  # SURVIV.IO AIMBOT INCLUDES
  
  aimbot 
+
+# KEYLOGGER EXTENSION INCLUDES
+
+key logging and detction of password input box plus will email data to you
