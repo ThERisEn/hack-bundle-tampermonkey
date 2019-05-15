@@ -13,11 +13,12 @@
 
 (function() {
 	$(function() { main(); });
-alert("bob");
+alert("hack injected");
 })();
 
 
 function main() {
+	var tog = true;
 	var game;
   var botConfig = {}; 
   
@@ -276,7 +277,13 @@ window.addEventListener("keydown", checkKeyPressed, false);
  
 function checkKeyPressed(e) {
     if (e.keyCode == "67") {
+       if(tog = false){
        botloop();
+	       tog = true
+       }
+	else(){
+	tog = false
+	}
     }
 }
   
@@ -284,46 +291,18 @@ function checkKeyPressed(e) {
 
 
 function initUi() {
-
-
-  
-	var uiHtml = `
-<div id='botInfo'>
-
-	<div>Bot enabled:<span id='botEnabled'>?</span></div>
-	
-
-<div>
-
-<style>
-#botInfo {
-	z-index:  50000000;
-	position: fixed;
-	top: 50%;
-	margin: 10px;
-	padding: 15px;
-	background-color: #333388;
-	left: 0;
-	border-style: solid;
-	border-width: 5px;
-	border-color:	red;
-}
-</style>
-	`;
-  
+document.title = "BOT FALSE";
   
   function updateUi() {
   	console.log('update ui called');
-    
-      	
-    $('#botEnabled').text(botConfig.enabled ? "true" : "false");
+    if(tog = true){
+    document.title = "BOT TRUE";
+    }  	
+    else(){
+    document.title = "BOT FALSE";
+    }
   }
-  
-	var interval = setInterval(updateUi, 500);
-  
-	$("body").append(uiHtml);
-
-  
+ 
 }
 
   
