@@ -4,6 +4,8 @@ warning: this is just other people scripts i'm just putting to togther
 
 https://bit.ly/2J4yOPw
 
+help me reach a thousand Subs
+
 # this is repo of tampermonkey scripts for hacking games and for real hacking
 check out supported websites file for a list
 
