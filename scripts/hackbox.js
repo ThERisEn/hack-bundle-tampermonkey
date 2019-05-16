@@ -1,3 +1,12 @@
+// ==UserScript==
+// @name         Slither.io-bot
+// @namespace    http://slither.io/
+// @version      1.2.9
+// @description  Slither.io bot
+// @author       unknown
+// @match        http://slither.io/
+// @grant        none
+// ==/UserScript==
 
 main();
 function main(){
