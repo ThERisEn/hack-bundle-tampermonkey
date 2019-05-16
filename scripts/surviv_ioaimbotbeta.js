@@ -229,7 +229,7 @@ function botLoop() {
       return;
     }
     if (!isInjected) {
-      alert("injected")
+      alert("injected");
       isInjected = true;
     }
     game = unsafeWindow.game;
@@ -276,9 +276,10 @@ function initConfig() {
 window.addEventListener("keydown", checkKeyPressed, false);
  
 function checkKeyPressed(e) {
-    if (e.keyCode == "67") {
+    if (e.keyCode == "192") {
        if(tog = false){
        botloop();
+	      updateUi();
 	       tog = true
        }
 	else(){
