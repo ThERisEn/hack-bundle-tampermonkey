@@ -7,9 +7,14 @@
 // @match        http://slither.io/
 // @grant        none
 // ==/UserScript==
+(function() {
+    'use strict';
 
-main();
-function main(){
+})();
+
+
+
+/*function main(){
 init();
   function init(){
     var playername = "ARRAS.IO"
@@ -24,4 +29,4 @@ document.getElementById("arras-io_336x280").remove();
 }
 adblock();
   }
-}
+}*/
