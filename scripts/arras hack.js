@@ -14,9 +14,10 @@ main();
    
 })();
 function main(){
-initUi();
-  function initUi(){
-    var playername = document.getElementById("PlayerNameInput").value();
+init();
+  function init(){
+    var playername = "ARRAS.IO"
+    document.getElementById("PlayerNameInput").value() = playername;
     var isInjected = false;
     if(!isInjected){
     alert("ARRAS INJECTED");
