@@ -13,6 +13,7 @@
     'use strict';
 if(window.document.URL == "http://slither.io/" || window.document.URL == "https://slither.io/"){
 slither();
+    alert("BOB");
 }
     else{
     
