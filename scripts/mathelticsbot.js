@@ -1,4 +1,5 @@
 // you will need to put this in the console on the mathletics live page or else it will not work
+// the key to make it show the anwser is ` on the keyboard
 alert("YOU ARE USING PROTEUS ALPHA BY SYNCINUS, ENJOY!");
 
 function GET_DATA() {
