@@ -83,3 +83,7 @@ key logging and detction of password input box plus will email data to you
 # ARDBLOCKER INCLUDES
 
 blocking ardagent must be put in script editor mac
+
+# MATHLETICS BOT INCLUDES
+
+auto answer
