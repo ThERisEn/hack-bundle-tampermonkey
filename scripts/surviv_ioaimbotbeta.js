@@ -1,3 +1,4 @@
+// this is broken
 // ==UserScript==
 // @name     	Surviv.io_aimbot
 // @namespace    http://tampermonkey.net/
