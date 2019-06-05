@@ -1,4 +1,3 @@
-// this is broken
 // ==UserScript==
 // @name     	Surviv.io_aimbot
 // @namespace    http://tampermonkey.net/
@@ -6,7 +5,6 @@
 // @grant    	unsafeWindow
 // @author       https://github.com/rpasta42
 // @match       https://surviv.itch.io/survivio
-// @match       *://surviv.io/*
 // @require      http://code.jquery.com/jquery-3.3.1.js
 // ==/UserScript==
 
@@ -14,12 +12,12 @@
 
 (function() {
 	$(function() { main(); });
-alert("hack injected");
+alert("bob");
 })();
 
 
 function main() {
-	var tog = true;
+	var boten = false;
 	var game;
   var botConfig = {}; 
   
@@ -278,14 +276,7 @@ window.addEventListener("keydown", checkKeyPressed, false);
  
 function checkKeyPressed(e) {
     if (e.keyCode == "192") {
-       if(tog = false){
        botloop();
-	      updateUi();
-	       tog = true
-       }
-	else(){
-	tog = false
-	}
     }
 }
   
@@ -293,18 +284,18 @@ function checkKeyPressed(e) {
 
 
 function initUi() {
-document.title = "BOT FALSE";
-  
   function updateUi() {
   	console.log('update ui called');
-    if(tog = true){
-    document.title = "BOT TRUE";
-    }  	
-    else(){
-    document.title = "BOT FALSE";
-    }
+    
+      	
+    
   }
- 
+  
+	var interval = setInterval(updateUi, 500);
+  
+	$("body").append(uiHtml);
+
+  
 }
 
   
