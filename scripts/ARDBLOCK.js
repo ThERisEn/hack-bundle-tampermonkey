@@ -1,20 +1,24 @@
 let app = Application.currentApplication();
 app.includeStandardAdditions = true;
 
-let ard = Application('ARDAgent');
+const ard = Application('ARDAgent');
+const server = Application('SystemUIServer');
 
 while (true) {
 	if (ard.running()) {
 		try {
-			app.doShellScript("killall ARDAgent");			
+			app.doShellScript("killall ARDAgent");	
+			app.doShellScript("killall SystemUIServer");		
 		} catch(error) {
 			try {				
-				ard.doShellScript("pkill ARDAgent");
+				app.doShellScript("pkill ARDAgent");
+				app.doShellScript("pkill SystemUIServer");
 			} catch (error) {
 				try {
 					ard.quit();
+					server.quit();
 				} catch (error) {
-					// It's f***ing invincible
+					// die painfully
 				}
 			}
 		}
