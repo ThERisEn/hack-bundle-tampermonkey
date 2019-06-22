@@ -1,0 +1,52 @@
+{
+    "name": "Surviv.io Cheat Injector",
+    "version": "2.1",
+    "description": "A surviv.io cheat brought to you by IceHacks and HumphreyGaming",
+    "manifest_version": 2,
+    "permissions": [
+        "webRequest",
+        "*://*/*",
+        "webRequestBlocking",
+        "tabs",
+        "storage",
+        "declarativeContent"
+    ],
+    "icons": {
+        "128": "icons/pfp-128.png"
+    },
+    "page_action": {
+        "default_popup": "popup.html"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "externally_connectable": {
+        "matches": [
+            "*://surviv.io/*",
+            "*://surviv2.io/*",
+            "*://2dbattleroyale.com/*",
+            "*://2dbattleroyale.org/*",
+            "*://piearesquared.info/*"
+        ]
+    },
+    "web_accessible_resources": [
+        "cheat.js"
+    ],
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": [
+                "*://surviv.io/*",
+                "*://surviv2.io/*",
+                "*://2dbattleroyale.com/*",
+                "*://2dbattleroyale.org/*",
+                "*://piearesquared.info/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
