@@ -87,3 +87,8 @@ blocking ardagent must be put in script editor mac
 # MATHLETICS BOT INCLUDES
 
 auto answer
+# YOHOHO.IO HACK INCLUDES
+
+best skin
+
+money hack
